@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(a.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navegacao{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    width: 150;
+    height: auto;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    color:#000000; 
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:  #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #a19a9a;
+}
+
+.pesquisa{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.navegar{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
+    background: #827878;
+    border: 2px solid #827878;
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.botao:hover{
+    color: #ffffff;
+}
+
+.botao:focus{
+    outline: none;
+}
+
+.pesquisa:focus{
+    outline: none;
+}
+
+.conteudo{
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    color: #4d1d1d;
+    position: relative;
+}
+
+.conteudo .par{
+    padding-left: 800px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.conteudo h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 800px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.conteudo span{
+    color:#aeabab;
+    font-size: 30px;
+}
+
+.form{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 145px;
+    bottom: 280px;
+
+}
+.form h2{
+    font-size: 27px;
+    font-family: Arial;
+    color: #827878;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #ffffff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #000000;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #000000;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #000000;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+.b{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.borda {
+    width: 350px;
+    height: 20px;
+    background-color: #827878;
+    position: absolute;
+    top: -80px;
+    left: 148px;
+    transform: translate(0%,-5%);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.contato .oi{
+    left: 190px;
+    top: -60px;
+    font-family: Arial;
+    font-size: 19px;
+    color:#ffffff; 
+    position: absolute;
+}
